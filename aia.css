@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #081b2a;
+}
+.manu{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 10%;
+    background-color:transparent;
+}
+.lo{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+nav {
+    display: flex;
+    padding: 10px 0px;
+    width: 70%;
+    
+}
+nav a{
+    margin-left: 65px;
+    color: white;
+    font-weight: 600;
+    transition: .6s;
+}
+nav a:hover{
+    font-size: 25px;
+    color: rgb(14, 241, 241);
+    text-decoration: underline;
+}
+.manu-bar h1{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+.fo{
+    text-align: center;
+    margin-top: 35px;
+}
+.fo input{
+    width: 250px;
+    height: 45px;
+    border-radius: 45px;
+}
+.fo button{
+    width: 100px;
+    padding: 15px;
+    color: white;
+    background-color: rgb(56, 160, 99);
+    margin-left: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.hji{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 45px;
+
+}
+.lo{
+flex: 100%;
+max-width: 25%; 
+text-align: center;  
+}
+.lo{
+    margin-top: 70px;
+    padding: 2px 15px 5px 4px;
+}
+.lo h3{
+    text-align: center;
+}
+.lo p{
+    margin-top: 25px;
+}

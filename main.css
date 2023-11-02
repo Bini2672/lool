@@ -1,0 +1,127 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+body{
+    background-color: #081b2a;
+}
+.manu{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 10%;
+    background-color:transparent;
+}
+.lo{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+nav {
+    display: flex;
+    padding: 10px 0px;
+    width: 70%;
+    
+}
+nav a{
+    margin-left: 65px;
+    color: white;
+    font-weight: 600;
+    transition: .6s;
+}
+nav a:hover{
+    font-size: 25px;
+    color: rgb(14, 241, 241);
+    text-decoration: underline;
+}
+.contact{
+    display: flex;
+    width: 100%;
+    min-height: 90vh;
+    align-items: center;
+
+}
+.clase{
+    width: 70%;
+    position: relative;
+    padding: 20px 10%;
+}
+.clase  h1{
+    color: #12f0ddfb;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.clase h3{
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+}
+.clase p{
+    color: white;
+    font-size: 28px;
+    padding: 10px 0px 15px;
+}
+.lko{
+    display: flex;
+    align-items: center;
+    background-color:transparent;
+    
+}
+.lko a{
+    font-size: 30px;
+    border: px solid rgb(13, 235, 243);
+    border-radius: 90%;
+    margin-left: 10px;
+    color: white;
+    padding-top: 5px;
+    transition: .9s;
+    
+}
+.lko a:hover{
+    background-color: aqua;
+}
+.bnt button{
+    display: flex;
+    background-color: aqua;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    margin: 25px 10px 15px;
+}
+img{
+    margin-right: 5px;
+    border-radius: 50%;
+    width: 400px;
+}
+.gl{
+    background-color: antiquewhite;
+}
+@media (max-width: 400px){
+    .lo{
+        color: red;
+    }
+   .clase h1{
+        color: rgb(17, 233, 9);
+        font-size: 50px;
+    }
+    nav{
+        line-height: 1.5rem;
+       flex-direction: column;
+    }
+    .contact{
+        flex: 100%;
+        flex-direction: column;
+    }
+.clase{
+flex: 100%;
+padding: 0;
+    }
+    img{
+        width: 100%;
+        font-size: 45px;
+    }
+}
